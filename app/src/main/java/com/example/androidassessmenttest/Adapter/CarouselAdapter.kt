@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidassessmenttest.R
-import com.example.androidassessmenttest.dataClass.ImageItem
 
 class CarouselAdapter(private val images: List<Int>) :
     RecyclerView.Adapter<CarouselAdapter.CarouselViewHolder>() {
