@@ -44,4 +44,12 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
+    // ViewModel
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+
+    // For viewModels() delegate in Activity
+    implementation ("androidx.activity:activity-ktx:1.8.0")
+
+    // Optional: LiveData
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
 }

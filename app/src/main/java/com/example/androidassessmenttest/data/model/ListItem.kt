@@ -1,4 +1,4 @@
-package com.example.androidassessmenttest.dataClass
+package com.example.androidassessmenttest.data.model
 
 data class ListItem(
     val title: String,

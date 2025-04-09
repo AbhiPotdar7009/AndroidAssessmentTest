@@ -1,4 +1,4 @@
-package com.example.androidassessmenttest.Adapter
+package com.example.androidassessmenttest.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidassessmenttest.R
-import com.example.androidassessmenttest.dataClass.ListItem
+import com.example.androidassessmenttest.data.model.ListItem
 
 class LabelAdapter(var labels: List<ListItem>) :
     RecyclerView.Adapter<LabelAdapter.LabelViewHolder>() {
