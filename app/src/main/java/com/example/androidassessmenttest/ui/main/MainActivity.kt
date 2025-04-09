@@ -22,7 +22,6 @@ import com.google.android.material.tabs.TabLayoutMediator
 class MainActivity : AppCompatActivity() {
 
     private val viewModel: MainViewModel by viewModels()
-
     private lateinit var labelAdapter: LabelAdapter
 
     private val carouselData = listOf(
