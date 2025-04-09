@@ -86,7 +86,6 @@ class MainActivity : AppCompatActivity() {
                 append("$char = $count\n")
             }
         }
-
         dialog.setContentView(view)
         dialog.show()
     }
